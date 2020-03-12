@@ -64,6 +64,9 @@
     }
 
     .leftcell {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
         background-color: black;
         color:white;
         text-align: center;
@@ -85,12 +88,14 @@
     }
 
     .rightcell {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         background-color:black;
         color:white;
         text-align: center;
         width: 100%;
         font-size: 2vmin;
-       
         transform: rotate(180deg);
     }
 
